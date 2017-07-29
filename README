@@ -1,0 +1,20 @@
+To make server:
+	make server
+
+To make client:
+	make client
+
+To make both:
+	make
+
+To clean:
+	make clean
+
+To run server:
+	./server <PORT_NUMBER>
+
+To run client:
+	./client <PORT_NUMBER>
+
+To benchmark (you'll need the `pv' tool):
+	./client <PORT_NUMBER> |pv > /devnull
